@@ -1,6 +1,4 @@
-import psycopg2
-from sqlalchemy import create_engine, inspect, MetaData
-import pandas as pd
+from sqlalchemy import create_engine, MetaData
 
 def load_data(df, db_url):
     """

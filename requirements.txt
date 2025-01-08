@@ -1,11 +1,9 @@
-requests
 spotipy
-pandas
-SQLAlchemy
-psycopg2
 python-dotenv
+sqlalchemy
+pandas
+psycopg2
 plotly
 dash
-apache-airflow
 dash-bootstrap-components
-virtualenv
+apache-airflow

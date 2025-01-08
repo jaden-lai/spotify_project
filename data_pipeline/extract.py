@@ -1,6 +1,3 @@
-import spotipy
-import sys
-from spotipy.oauth2 import SpotifyOAuth
 from auth.spotify_oath import authenticate_spotify
 
 def extract_recent_tracks(sp):
