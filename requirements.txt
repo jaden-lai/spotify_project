@@ -1,0 +1,10 @@
+requests
+spotipy
+pandas
+SQLAlchemy
+psycopg2
+python-dotenv
+plotly
+dash
+apache-airflow
+dash-bootstrap-components
