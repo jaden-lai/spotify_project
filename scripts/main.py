@@ -9,8 +9,6 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, message=".*only supports SQLAlchemy connectable.*")
 
 
-
-
 def run_pipeline():
     try:
         print("Starting Spotify Data Pipeline...")
@@ -38,7 +36,7 @@ def run_pipeline():
 
         # Step 4: Load data into PostgreSQL
         print("Loading data into the database...")
-        load_data(transformed_data, DB_URL)
+        load_data(transformed_data, DB_URL),
         print("Data successfully loaded into the database!")
 
     except Exception as e:

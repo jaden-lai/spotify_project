@@ -8,3 +8,4 @@ plotly
 dash
 apache-airflow
 dash-bootstrap-components
+virtualenv
