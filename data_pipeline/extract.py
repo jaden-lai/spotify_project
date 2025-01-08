@@ -4,7 +4,6 @@ from spotipy.oauth2 import SpotifyOAuth
 from auth.spotify_oath import authenticate_spotify
 
 def extract_recent_tracks(sp):
-    # Fetch the most recent 100 tracks the user has listened to
     results = sp.current_user_recently_played(limit=50)
     tracks = []
     

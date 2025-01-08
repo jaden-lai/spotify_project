@@ -11,7 +11,6 @@ CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
 REDIRECT_URI = os.getenv('SPOTIPY_REDIRECT_URI')
 SCOPE = "user-library-read user-top-read user-read-recently-played"
 
-# Authenticate with Spotify API using OAuth
 def authenticate_spotify():
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                    client_secret=CLIENT_SECRET,
